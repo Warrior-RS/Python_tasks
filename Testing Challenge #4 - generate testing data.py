@@ -1,6 +1,6 @@
+#http://testingchallenges.thetestingmap.org/challenge4.php  test task
+
 import random
-
-
 
 first_digit = random.randint(1,9)               #random.randint get a random number in a given interval
 
