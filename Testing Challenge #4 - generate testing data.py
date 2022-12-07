@@ -4,7 +4,7 @@ import random
 
 first_digit = random.randint(1,9)               #random.randint get a random number in a given interval
 
-if first_digit > 4 or first_digit < 7:          # if we get 5 or 6, the person's year of birth cannot be more than the current year
+if first_digit > 4 and first_digit < 7:          # if we get 5 or 6, the person's year of birth cannot be more than the current year
     second_digit = random.randint(0,2)
     third_digit = random.randint(0,2)
 else:
