@@ -18,7 +18,7 @@ else:
     fifth_digit = random.randint(0,2)
 
 sixth_digit = random.randint(0,2)               #the sixth and seventh numbers indicate the date
-seventh_digit = random.randint(0,8)
+seventh_digit = random.randint(0,8)             #limited the maximum date, in order to bypass errors with invalid data :(
 
 eighth_digit = random.randint(0,5)              #The eighth and ninth indicate the region (01 to 52)
 if eighth_digit < 5:
