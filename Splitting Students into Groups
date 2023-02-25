@@ -1,25 +1,26 @@
-# Введите количество учеников
+
+# Enter the number of students  
 n = int(input("Введите количество учеников: "))
 
-# Введите имена учеников
+# Enter student names
 names = []
 for i in range(n):
-    name = input("Введите имя ученика: ")
+    name = input("Enter student name: ")
     names.append(name)
 
-# Разделите учеников на две группы
+# Divide students into two groups
 group1 = names[:n // 2]
 group2 = names[n // 2:]
 
-# Если количество учеников нечётное, добавьте одного ученика во вторую группу
+# If the number of students is odd, add one student to the second group
 if n % 2 == 1:
     group2.append(names[-1])
 
-# Выведите имена учеников в двух группах
-print("Ученики в первой группе:")
+# Print the names of the students in the two groups
+print("Students in the first group:")
 for name in group1:
     print(name)
 
-print("Ученики во второй группе:")
+print("Students in the second group:")
 for name in group2:
     print(name)
