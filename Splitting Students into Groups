@@ -1,3 +1,9 @@
+In the journal, the names and surnames of the students are written in a column. The students were divided into 2 equal groups for English lessons.
+If it is not possible to divide equally, then in the second group you can do one more student.
+Given a number N, then N names of students. 
+Output two arrays: with the names of the students from the first group and the names from the second (in the same order as they were in the general list)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Enter the number of students  
 n = int(input("Enter the number of students: "))
