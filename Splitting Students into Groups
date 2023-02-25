@@ -1,6 +1,6 @@
 
 # Enter the number of students  
-n = int(input("Введите количество учеников: "))
+n = int(input("Enter the number of students: "))
 
 # Enter student names
 names = []
